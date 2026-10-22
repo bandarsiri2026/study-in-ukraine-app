@@ -1,0 +1,18 @@
+# --- Dependencies & build output ---
+node_modules/
+www/
+.sourcemaps/
+platforms/
+plugins/
+coverage/
+
+# --- IDE / OS artifacts ---
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+
+# --- Local config ---
+.env
+*.log

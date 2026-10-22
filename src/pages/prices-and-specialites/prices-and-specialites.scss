@@ -1,0 +1,20 @@
+page-prices-and-specialites {
+
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #aaaaaa;
+  }
+
+  th, td {
+    text-align: right;
+
+  }
+
+  tr:nth-child(even){background-color: #f2f2f2}
+  table p{
+    font-size: 11px;
+
+  }
+}

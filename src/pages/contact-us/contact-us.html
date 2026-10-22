@@ -1,0 +1,90 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="arrow-forward"></ion-icon>
+    </button>
+    <ion-title>
+      اتصل بنا
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+
+
+  <button ion-button full (click)="captureImage()"> جواز السفر <i class="fa fa-upload" aria-hidden="true" ></i></button>
+  <button ion-button full (click)="captureImage2()"> شهادة البكالوريا <i class="fa fa-upload" aria-hidden="true" ></i></button>
+  <button ion-button full (click)="captureImage3()"> كشف النقاط <i class="fa fa-upload" aria-hidden="true" ></i></button>
+
+  <button ion-button full (click)="sendEmail()"> ارسال <i class="fa fa-paper-plane" aria-hidden="true"></i>
+  </button>
+
+  <ion-card>
+    <ion-card-header>الملفات المرفقة</ion-card-header>
+    <ion-grid>
+
+      <ion-row>
+        <ion-col>
+          <img  style="width: 80px; height: 80px;" [src]="currentImage" *ngIf="currentImage" />
+        </ion-col>
+        <ion-col>
+          <img  style="width: 80px; height: 80px;" [src]="currentImage2" *ngIf="currentImage2" />
+        </ion-col>
+        <ion-col>
+          <img  style="width: 80px; height: 80px;" [src]="currentImage3" *ngIf="currentImage3" />
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+
+  </ion-card>
+  <hr>
+  <br>
+  <h2 style="text-align: center;"></h2>
+  <h2 style="text-align: center;"><strong> إذا كانت لديك أى استفسار فلا تردد بالإتصال بنا بأى طريقة مناسبة لك سواء بالهاتف  الايميل ,الواتساب  , او الفايبر</strong></h2>
+  <h2 style="text-align: center;"><strong>[phone hidden]+</strong></h2>
+  <h2 style="text-align: center;"><strong>[phone hidden]+</strong></h2>
+  <h2 style="text-align: center;">[email hidden]  :   الايميل</h2>
+  <h2 style="text-align: center;"><strong>  رقم مندوبنا في الجزائر  </strong></h2>
+  <h2 style="text-align: center;"><strong><img class="wp-image-353 aligncenter" src="http://maghreb-dirassa.com/wp-content/uploads/2017/04/algerie-drapeau-icone-6079-128.png" alt="" width="112" height="112" /></strong></h2>
+  <p style="direction: rtl;text-align: center"><strong style="font-size: 21px;" > رقم الهاتف : [phone hidden]+</strong></p>
+
+  <div class="_5wd4 _1nc7 direction_rtl">
+    <div class="_h8t">
+      <div class="_5wd9">
+        <div class="_5wde _n4o">
+          <div class="_5w1r _3_om _5wdf">
+            <div class="_4gx_">
+              <h2 class="_d97" style="text-align: center;">74, rue du CEM Oued Romane, (a coté de TLS , a coté de TLS visa ) 16403 El Achour, Alger</h2>
+              <h2 style="text-align: center;"><strong>مكتبنا في المغرب</strong><strong> </strong><strong><br><img class="wp-image-354 aligncenter" src="http://maghreb-dirassa.com/wp-content/uploads/2017/04/drapeau-maroc-icone-4235-128.png" alt="" width="112" height="112" /></strong></h2>
+              <h2 style="text-align: center;"><strong>رقم الهاتف : [phone hidden]+</strong></h2>
+              <h2 style="direction: rtl; text-align: center;">فايبر ، ايمو ، واتساب : [phone hidden]+</h2>
+              <h2 class="_d97" style="text-align: center;"></h2>
+              <div class="_h8t">
+                <div id="js_1rz" class="_5wd9" data-tooltip-content="18:08" data-hover="tooltip" data-tooltip-position="right">
+                  <div class="_5wde _n4o">
+                    <div class="_5w1r _3_om _5wdf">
+                      <div class="_4gx_">
+                        <h2 class="_d97" style="text-align: center;"><strong><span class="_5yl5">Agence khidmanet 78 rue casablanca 1 er etage oujda maroc</span></strong></h2>
+                        <h2 class="_d97" style="text-align: center;"><strong><span class="_5yl5">chez Rachid Mohammed</span></strong></h2>
+                        <h2 class="_d97" style="text-align: center;"><strong><span class="_5yl5">tel : [phone hidden]</span></strong></h2>
+                        <h2 class="_d97" style="text-align: center;"><strong><span class="_5yl5">WhatsApp : [phone hidden]</span></strong></h2>
+
+                        <hr />
+
+                        <h2 style="text-align: center;"><strong>Mohamad (casa , mohammedia)</strong></h2>
+                        <h2 style="text-align: center;"><strong>[phone hidden]+</strong></h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h2 style="text-align: center;"><a href="https://www.facebook.com/sam.orange.12?fref=hovercard"><strong>Facebook</strong></a></h2>
+</ion-content>
